@@ -306,8 +306,10 @@ img {
     font-size: 1rem;
   }
 
+  
   img {
     height: 120px;
-    display: none;
+    right: 30%;
+    position: absolute;
   }
 }
