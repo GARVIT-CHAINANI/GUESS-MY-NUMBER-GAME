@@ -271,11 +271,11 @@ img {
 /* Additional media query for very small screens */
 @media (max-width: 320px) {
   html {
-    font-size: 35%;
+    font-size: 40%;
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 4rem;
   }
 
   .number {
@@ -293,13 +293,21 @@ img {
     padding: 0.8rem 1rem;
   }
 
-  .between,
+
   .again {
+    font-size: 2rem;
+   
+  }
+
+  .between{
+    top: 61%;
+    position: absolute;
+    left: 23%;
     font-size: 1rem;
-    top: 0.5rem;
   }
 
   img {
     height: 120px;
+    display: none;
   }
 }
